@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
-//import { BsWhatsapp } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 
 export const Header = (props) => {
   return (
@@ -22,8 +22,11 @@ export const Header = (props) => {
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  {/* <BsWhatsapp/> */}
-                  Fale conosco via WhatsApp
+                  
+                  <div style={{ display: 'flex', alignItems: 'center'}}>
+                    <BsWhatsapp/>
+                    <span style={{ marginLeft: '10px' }}>Fale conosco via WhatsApp</span>
+                  </div>
                 </a>{" "}
               </div>
             </div>
