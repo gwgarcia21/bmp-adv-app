@@ -68,28 +68,28 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Experiência e Excelência",
-      "text": "Profundo conhecimento da legislação e das jurisprudências relacionadas à sua área de atuação."
+      "name": "Direito de Família",
+      "text": "Divórcio, pensão e guarda"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Sucessão",
+      "text": "Inventário extrajudicial e judicial."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Direito Cível",
+      "text": "Ações indenizatórias."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Direito do Trabalho",
+      "text": ""
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Direito do Consumidor",
+      "text": ""
     },
     {
       "icon": "fa fa-pie-chart",
