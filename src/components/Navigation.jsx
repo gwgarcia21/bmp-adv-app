@@ -1,5 +1,6 @@
 import React from "react";
 import LogoOnly from "./LogoOnly";
+import LogoName from "./LogoName";
 
 export const Navigation = (props) => {
   return (
@@ -23,7 +24,8 @@ export const Navigation = (props) => {
           </a>{" "} 
           <img src={logoPng} alt="Logo" style={{ width: '100px', height: '100px' }}/>*/}
           <div>
-            <LogoOnly style={{ width: '60px', height: '60px' }}/>
+            <LogoOnly style={{ width: '60px', height: '60px', margin: '5' }}/>
+            <LogoName style={{ width: '180px', height: '60px' }}/>
           </div>
         </div>
 
