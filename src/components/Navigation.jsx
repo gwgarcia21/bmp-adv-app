@@ -1,4 +1,5 @@
 import React from "react";
+import LogoOnly from "./LogoOnly";
 
 export const Navigation = (props) => {
   return (
@@ -17,9 +18,13 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          {/* <a className="navbar-brand page-scroll" href="#page-top" style={{ width: '20px', height: '20px' }}>
             BMP ADVOCACIA
-          </a>{" "}
+          </a>{" "} 
+          <img src={logoPng} alt="Logo" style={{ width: '100px', height: '100px' }}/>*/}
+          <div>
+            <LogoOnly style={{ width: '60px', height: '60px' }}/>
+          </div>
         </div>
 
         <div

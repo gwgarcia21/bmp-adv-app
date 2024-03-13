@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "./Logo";
 
 export const Header = (props) => {
   return (
@@ -8,16 +9,19 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
+                {/* <h1>
                   {props.data ? props.data.title : "Carregando"}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Carregando"}</p>
+                <p>{props.data ? props.data.paragraph : "Carregando"}</p>*/}
+                <div>
+                  <Logo/>
+                </div>
                 <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Saiba mais
+                  Fale conosco via WhatsApp
                 </a>{" "}
               </div>
             </div>
