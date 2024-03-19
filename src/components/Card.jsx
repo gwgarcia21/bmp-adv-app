@@ -8,7 +8,7 @@ const Card = ({ title, content, Icon }) => {
       <h3>{title}</h3>
       <ul style={{ marginTop: '20px', paddingLeft: '20px', listStyleType: 'disc' }}>
         {content.map((item, index) => (
-          <li key={index} style={{ marginBottom: '15px' }}>{item}</li>
+          <li key={index} style={{ marginBottom: '10px' }}>{item}</li>
         ))}
       </ul>
     </div>

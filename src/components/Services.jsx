@@ -9,6 +9,32 @@ const contentCivelConsumidor = [
   'Revisão de contrato RMC e RCC'
 ];
 
+const contentPrevidenciario = [
+  'Benefício assistencial LOAS/BPC (idoso ou deficiente)',
+  'Auxílio doença',
+  'Auxílio- acidente',
+  'Revisões',
+  'Aposentadorias',
+  'Pensão por morte'
+];
+
+const contentFamilia = [
+  'Ações de guarda',
+  'Pensão alimentícia',
+  'Ações de abandono afetivo',
+  'Divórcio e dissolução de união estável',
+  'Inventário e Partilha de bens extrajudicial e judicial'
+];
+
+const contentTrabalhista = [
+  'Reconhecimento de vínculo trabalhista',
+  'Rescisão indireta (FGTS em atraso)',
+  'Dispensa discriminatória',
+  'Ações acidentárias - estabilidade para acidentários e gestantes',
+  'Horas extras',
+  'Verbas atrasadas'
+];
+
 export const Services = (props) => {
   return (
     <div id="services" className="text-center">
@@ -18,11 +44,10 @@ export const Services = (props) => {
         </div>
         <div className="row">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gridTemplateRows: 'auto auto', gap: '20px', padding: '0px' }}>
-            <Card Icon={BsWhatsapp} title="CÍVEL e CONSUMIDOR" 
-              content={contentCivelConsumidor}/>
-            <Card Icon={FaUser} title="PREVIDENCIÁRIO" content={contentCivelConsumidor}/>
-            <Card Icon={BsWhatsapp} title="FAMÍLIA E SUCESSÕES" content={contentCivelConsumidor}/>
-            <Card Icon={BsWhatsapp} title="TRABALHISTA" content={contentCivelConsumidor}/>
+            <Card Icon={BsWhatsapp} title="CÍVEL e CONSUMIDOR" content={contentCivelConsumidor}/>
+            <Card Icon={FaUser} title="PREVIDENCIÁRIO" content={contentPrevidenciario}/>
+            <Card Icon={BsWhatsapp} title="FAMÍLIA E SUCESSÕES" content={contentFamilia}/>
+            <Card Icon={BsWhatsapp} title="TRABALHISTA" content={contentTrabalhista}/>
           </div>
         </div>
       </div>
