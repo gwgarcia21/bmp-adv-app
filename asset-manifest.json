@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bmp-adv-app/static/css/main.21559623.css",
-    "main.js": "/bmp-adv-app/static/js/main.87cf718b.js",
+    "main.css": "/bmp-adv-app/static/css/main.e1212a03.css",
+    "main.js": "/bmp-adv-app/static/js/main.9bc2d160.js",
     "static/js/453.59776987.chunk.js": "/bmp-adv-app/static/js/453.59776987.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
     "static/media/fontawesome-webfont.ttf?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
@@ -15,12 +15,12 @@
     "static/media/glyphicons-halflings-regular.eot": "/bmp-adv-app/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
     "static/media/glyphicons-halflings-regular.woff2": "/bmp-adv-app/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/bmp-adv-app/index.html",
-    "main.21559623.css.map": "/bmp-adv-app/static/css/main.21559623.css.map",
-    "main.87cf718b.js.map": "/bmp-adv-app/static/js/main.87cf718b.js.map",
+    "main.e1212a03.css.map": "/bmp-adv-app/static/css/main.e1212a03.css.map",
+    "main.9bc2d160.js.map": "/bmp-adv-app/static/js/main.9bc2d160.js.map",
     "453.59776987.chunk.js.map": "/bmp-adv-app/static/js/453.59776987.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21559623.css",
-    "static/js/main.87cf718b.js"
+    "static/css/main.e1212a03.css",
+    "static/js/main.9bc2d160.js"
   ]
 }
