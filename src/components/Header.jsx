@@ -19,13 +19,13 @@ export const Header = (props) => {
                   <Logo/>
                 </div>
                 <a
-                  href="#features"
+                  href="https://wa.me/1XXXXXXXXXX"
+                  target="_blank"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  
                   <div style={{ display: 'flex', alignItems: 'center'}}>
                     <BsWhatsapp/>
-                    <span style={{ marginLeft: '10px' }}>Fale conosco via WhatsApp</span>
+                    <span style={{ marginLeft: '10px' }} >Fale conosco via WhatsApp</span>
                   </div>
                 </a>{" "}
               </div>
