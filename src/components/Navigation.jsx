@@ -35,11 +35,6 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Qualidades
-              </a>
-            </li>
-            <li>
               <a href="#about" className="page-scroll">
                 O Escritório
               </a>

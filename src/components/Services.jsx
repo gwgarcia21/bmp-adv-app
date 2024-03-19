@@ -1,4 +1,13 @@
 import React from "react";
+import Card from "../components/Card";
+import { FaUser } from 'react-icons/fa';
+import { BsWhatsapp } from "react-icons/bs";
+
+const contentCivelConsumidor = [
+  'Indenizações por danos morais e materiais',
+  'Inscrição indevida SPC/SERASA',
+  'Revisão de contrato RMC e RCC'
+];
 
 export const Services = (props) => {
   return (
@@ -6,24 +15,15 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Áreas de Atuação</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
         </div>
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.text}</p>
-                  </div>
-                </div>
-              ))
-            : "loading"}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gridTemplateRows: 'auto auto', gap: '20px', padding: '0px' }}>
+            <Card Icon={BsWhatsapp} title="CÍVEL e CONSUMIDOR" 
+              content={contentCivelConsumidor}/>
+            <Card Icon={FaUser} title="PREVIDENCIÁRIO" content={contentCivelConsumidor}/>
+            <Card Icon={BsWhatsapp} title="FAMÍLIA E SUCESSÕES" content={contentCivelConsumidor}/>
+            <Card Icon={BsWhatsapp} title="TRABALHISTA" content={contentCivelConsumidor}/>
+          </div>
         </div>
       </div>
     </div>
