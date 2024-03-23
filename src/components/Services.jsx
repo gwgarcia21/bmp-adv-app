@@ -12,7 +12,7 @@ const contentCivelConsumidor = [
 const contentPrevidenciario = [
   'Benefício assistencial LOAS/BPC (idoso ou deficiente)',
   'Auxílio doença',
-  'Auxílio- acidente',
+  'Auxílio acidente',
   'Revisões',
   'Aposentadorias',
   'Pensão por morte'
@@ -23,7 +23,9 @@ const contentFamilia = [
   'Pensão alimentícia',
   'Ações de abandono afetivo',
   'Divórcio e dissolução de união estável',
-  'Inventário e Partilha de bens extrajudicial e judicial'
+  'Inventário e partilha de bens extrajudicial e judicial',
+  'União homoafetiva',
+  'Reconhecimento de união estável pós-morte'
 ];
 
 const contentTrabalhista = [
