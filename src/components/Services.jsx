@@ -2,6 +2,9 @@ import React from "react";
 import Card from "../components/Card";
 import { FaUser } from 'react-icons/fa';
 import { BsWhatsapp } from "react-icons/bs";
+import { FaHandHoldingUsd } from "react-icons/fa";
+import { MdFamilyRestroom } from "react-icons/md";
+import { MdOutlineWork } from "react-icons/md";
 
 const contentCivelConsumidor = [
   'Indenizações por danos morais e materiais',
@@ -46,10 +49,10 @@ export const Services = (props) => {
         </div>
         <div className="row">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gridTemplateRows: 'auto auto', gap: '20px', padding: '0px' }}>
-            <Card Icon={BsWhatsapp} title="CÍVEL e CONSUMIDOR" content={contentCivelConsumidor}/>
-            <Card Icon={FaUser} title="PREVIDENCIÁRIO" content={contentPrevidenciario}/>
-            <Card Icon={BsWhatsapp} title="FAMÍLIA E SUCESSÕES" content={contentFamilia}/>
-            <Card Icon={BsWhatsapp} title="TRABALHISTA" content={contentTrabalhista}/>
+            <Card Icon={FaUser} title="CÍVEL e CONSUMIDOR" content={contentCivelConsumidor}/>
+            <Card Icon={FaHandHoldingUsd} title="PREVIDENCIÁRIO" content={contentPrevidenciario}/>
+            <Card Icon={MdFamilyRestroom} title="FAMÍLIA e SUCESSÕES" content={contentFamilia}/>
+            <Card Icon={MdOutlineWork} title="TRABALHISTA" content={contentTrabalhista}/>
           </div>
         </div>
       </div>
