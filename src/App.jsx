@@ -10,6 +10,7 @@ import { Services } from "./components/Services";
 import { Gallery } from "./components/Gallery";
 import { Testimonials } from "./components/Testimonials";
 import { Team } from "./components/Team";
+import { Disclaimer } from './components/Disclaimer';
 import JsonData from "./data/data.json";
 //import SmoothScroll from "smooth-scroll";
 
@@ -30,6 +31,7 @@ function App() {
       <Testimonials data={landingPageData.Testimonials} /> */}
       <Team data={landingPageData.Team} />
       {/* <Contact data={landingPageData.Contact} /> */}
+      <Disclaimer data={landingPageData.Disclaimer} />
     </div>
   );
 }

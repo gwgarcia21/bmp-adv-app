@@ -48,7 +48,13 @@ export const Services = (props) => {
           <h2>Áreas de Atuação</h2>
         </div>
         <div className="row">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gridTemplateRows: 'auto auto', gap: '20px', padding: '0px' }}>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
+            gridTemplateRows: 'auto auto', 
+            gap: '20px', 
+            padding: '0px' 
+          }}>
             <Card Icon={FaUser} title="CÍVEL e CONSUMIDOR" content={contentCivelConsumidor}/>
             <Card Icon={FaHandHoldingUsd} title="PREVIDENCIÁRIO" content={contentPrevidenciario}/>
             <Card Icon={MdFamilyRestroom} title="FAMÍLIA e SUCESSÕES" content={contentFamilia}/>

@@ -18,6 +18,11 @@ code {
   --cor-terciaria: #546048; /* Verde musgo */
   --cor-destaque: #edf5e8; /* Branco (verde muito claro) */
   --cor-alternativa: #ced1ca; /* Cinza */
+  --cor-texto-primario: #333;
+  --cor-texto-secundario: #777;
+  --cor-texto-terciario: #ccc;
+  --cor-texto-alternativo: #fff;
+  --cor-texto-destaque: #999;
 }
 
 body,
@@ -633,6 +638,25 @@ label {
 }
 #footer a:hover {
   border-bottom: 2px solid var(--cor-destaque);
+}
+
+#team p {
+  word-spacing: 0cap;
+  letter-spacing:'2px';
+}
+
+#team a {
+  color: var(--cor-texto-primario);
+}
+
+#team a:hover {
+  color: var(--cor-texto-destaque);
+  text-decoration: none;
+}
+
+#team a:focus {
+  color: var(--cor-texto-destaque);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
