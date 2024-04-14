@@ -11,7 +11,7 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-12 section-title">
           <div className="row">
-            <div className="col-xs-12 col-md-6" style={{ marginBottom: '30px'}}>
+            <div className="col-xs-12 col-md-6" style={{ marginBottom: '30px' }}>
               <Logo/>
             </div>
             <div className="col-xs-12 col-md-6">

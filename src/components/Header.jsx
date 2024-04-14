@@ -15,7 +15,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Carregando"}</p>*/}
-                <div style={{ marginTop: '20px'}}>
+                <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <Logo/>
                 </div>
                 <a
