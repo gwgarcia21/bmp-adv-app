@@ -31,9 +31,9 @@ export const Header = (props) => {
                     textAlign: 'center',
                   }}
                 >
-                  <div style={{ display: 'flex', alignItems: 'center'}}>
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
                     <BsWhatsapp/>
-                    <span style={{ marginLeft: '10px' }} >Fale conosco via WhatsApp</span>
+                    <span style={{ marginLeft: '10px', whiteSpace: 'normal' }} >Fale conosco via WhatsApp</span>
                   </div>
                 </a>{" "}
               </div>
