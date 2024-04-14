@@ -45,7 +45,7 @@ export const Team = (props) => {
                 </div>
                 <div className="contact-link">
                     <a href="mailto:advogadabrunapalma@gmail.com">
-                      <p style={{ wordSpacing:'10px', letterSpacing:'2px' }}>
+                      <p style={{ wordSpacing:'10px', letterSpacing:'2px', overflowWrap: 'break-word' }}>
                         <IoIosMail style={{ verticalAlign: 'middle'}}/>
                         {" advogadabrunapalma@gmail.com "}
                       </p>
