@@ -21,7 +21,7 @@ export const Team = (props) => {
                     <a href="tel:+554288447379">
                       <p style={{ wordSpacing:'10px', letterSpacing:'2px' }}>
                         <BsFillTelephoneFill style={{ verticalAlign: 'middle'}}/>
-                        {" (42)8844-7379 "}
+                        {"  (42)99125-7232 "}
                       </p>
                     </a>
                 </div>
