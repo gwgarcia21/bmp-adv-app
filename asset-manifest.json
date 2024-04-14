@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/bmp-adv-app/static/css/main.94676c12.css",
-    "main.js": "/bmp-adv-app/static/js/main.87e82826.js",
+    "main.js": "/bmp-adv-app/static/js/main.6af52a2b.js",
     "static/js/453.59776987.chunk.js": "/bmp-adv-app/static/js/453.59776987.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
+    "static/media/bruna_livro.jpg": "/bmp-adv-app/static/media/bruna_livro.bf9a2bcf7820e0cda578.jpg",
     "static/media/fontawesome-webfont.ttf?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
     "static/media/glyphicons-halflings-regular.svg": "/bmp-adv-app/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
     "static/media/fontawesome-webfont.woff?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
@@ -16,11 +17,11 @@
     "static/media/glyphicons-halflings-regular.woff2": "/bmp-adv-app/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/bmp-adv-app/index.html",
     "main.94676c12.css.map": "/bmp-adv-app/static/css/main.94676c12.css.map",
-    "main.87e82826.js.map": "/bmp-adv-app/static/js/main.87e82826.js.map",
+    "main.6af52a2b.js.map": "/bmp-adv-app/static/js/main.6af52a2b.js.map",
     "453.59776987.chunk.js.map": "/bmp-adv-app/static/js/453.59776987.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94676c12.css",
-    "static/js/main.87e82826.js"
+    "static/js/main.6af52a2b.js"
   ]
 }
