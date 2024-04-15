@@ -26,6 +26,7 @@ function App() {
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
+      <Features data={landingPageData.Features} />
       <Team data={landingPageData.Team} />
       <Disclaimer data={landingPageData.Disclaimer} />
     </div>
