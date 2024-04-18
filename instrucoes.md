@@ -3,5 +3,9 @@
 ## rodar:
 # npm start
 
-## publicar:
-# npm run deploy
+## publicar (ANTIGO):
+# npm run deploy 
+
+## publicar (NOVO)
+# npm run build
+# firebase deploy
