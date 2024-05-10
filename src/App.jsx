@@ -9,7 +9,7 @@ import { About } from "./components/About";
 import { Services } from "./components/Services";
 import { Gallery } from "./components/Gallery";
 import { Testimonials } from "./components/Testimonials";
-import { Team } from "./components/Team";
+import { Contact } from "./components/Contact";
 import { Disclaimer } from './components/Disclaimer';
 import JsonData from "./data/data.json";
 //import SmoothScroll from "smooth-scroll";
@@ -27,7 +27,7 @@ function App() {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Features data={landingPageData.Features} />
-      <Team data={landingPageData.Team} />
+      <Contact data={landingPageData.Contact} />
       <Disclaimer data={landingPageData.Disclaimer} />
     </div>
   );
