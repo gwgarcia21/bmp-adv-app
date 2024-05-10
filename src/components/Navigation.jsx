@@ -7,22 +7,6 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
-          {/* <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button> */}
-          {/* <a className="navbar-brand page-scroll" href="#page-top" style={{ width: '20px', height: '20px' }}>
-            BMP ADVOCACIA
-          </a>{" "} 
-          <img src={logoPng} alt="Logo" style={{ width: '100px', height: '100px' }}/>*/}
           <div>
             <LogoOnly style={{ width: '60px', height: '60px', margin: '5' }}/>
             <LogoName style={{ width: '180px', height: '60px' }}/>
@@ -35,8 +19,13 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
+              <a href="#header" className="page-scroll">
+                Início
+              </a>
+            </li>
+            <li>
               <a href="#about" className="page-scroll">
-                O Escritório
+                Quem Somos?
               </a>
             </li>
             <li>

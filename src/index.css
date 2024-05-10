@@ -240,16 +240,16 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  /*background: url(img/logo-bmp.svg) center bottom no-repeat;*/
+  background: url(img/bruna_livro.jpg) center bottom no-repeat;
   background-color: var(--cor-secundaria); /*#e5e5e5*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover; /*cover*/
   -o-background-size: cover;
 }
-/*.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
-}*/
+.intro .overlay {
+  background: rgba(0, 67, 6, 0.2);
+}
 .intro h1 {
   font-family: "Helvetica", sans-serif;
   letter-spacing: 0.25cap;

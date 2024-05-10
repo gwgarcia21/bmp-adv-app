@@ -10,11 +10,6 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                {/* <h1>
-                  {props.data ? props.data.title : "Carregando"}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : "Carregando"}</p>*/}
                 <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <Logo/>
                 </div>
