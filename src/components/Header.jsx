@@ -14,8 +14,8 @@ export const Header = (props) => {
                   <h1>Advocacia especializada em Direito de Família</h1>
                 </div>
                 <div className="about-text">
-                  <p>Em nosso escritório cada história familiar é tratada com empatia, 
-                    dedicação e expertise.
+                  <p>Em nosso escritório cada história familiar é tratada com <b>empatia, 
+                    dedicação e expertise.</b>
                   </p>
                   <p>Nosso compromisso é guiar você através dos desafios 
                     do <b>divórcio</b> ou do <b>processo de inventário</b> com clareza, tranquilidade e 
