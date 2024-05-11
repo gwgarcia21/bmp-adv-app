@@ -338,6 +338,58 @@ header .intro-text {
   background: linear-gradient(to right, var(--cor-primaria) 0%, var(--cor-secundaria) 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+/* Presentation Section */
+#presentation {
+  padding: 100px 0;
+}
+#presentation h3 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+#presentation h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#presentation h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, var(--cor-primaria) 0%, var(--cor-secundaria) 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+#presentation .presentation-text li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+}
+#presentation .presentation-text li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: var(--cor-primaria);
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#presentation img {
+  width: 520px;
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#presentation p {
+  line-height: 24px;
+  margin: 30px 0;
+}
+@media (max-width: 768px) {
+  #presentation img {
+    margin: 50px 0;
+  }
+}
 /* About Section */
 #about {
   padding: 100px 0;
@@ -384,6 +436,11 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+}
+@media (max-width: 768px) {
+  #about img {
+    margin: 50px 0;
+  }
 }
 /* Services Section */
 #services {
@@ -568,12 +625,6 @@ header .intro-text {
 #contact a:focus {
   color: var(--cor-texto-destaque);
   text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
-  }
 }
 
 @media (min-width: 992px) {
