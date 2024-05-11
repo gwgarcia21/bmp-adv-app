@@ -11,12 +11,19 @@ export const Header = (props) => {
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <div className="section-title">
-                  <h2>Advocacia especializada em Direito de Família</h2>
+                  <h1>Advocacia especializada em Direito de Família</h1>
                 </div>
                 <div className="about-text">
-                  <p>Prezamos pela praticidade e eficiência, por isso o nosso atendimento é personalizado e 100% digital, 
-              com linguagem acessível, para que o cliente entenda quais são os seus direitos e qual é a melhor solução 
-              para o seu caso.</p>
+                  <p>Em nosso escritório cada história familiar é tratada com empatia, 
+                    dedicação e expertise.
+                  </p>
+                  <p>Nosso compromisso é guiar você através dos desafios 
+                    do <b>divórcio</b> ou do <b>processo de inventário</b> com clareza, tranquilidade e 
+                    resoluções justas.
+                  </p>
+                  <p>Entendemos que cada família é única, e é por isso que 
+                    oferecemos <b>soluções personalizadas</b> para atender às suas necessidades específicas. 
+                  </p>
                 </div>
                 <a
                   href="https://api.whatsapp.com/send?phone=554288447379&text=Ol%C3%A1.%20Vim%20pelo%20site%20da%20dra.%20Bruna%20M.%20Palma%20e%20gostaria%20de%20marcar%20uma%20consulta."
