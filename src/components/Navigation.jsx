@@ -25,7 +25,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                Quem Somos?
+                Quem Somos
               </a>
             </li>
             <li>

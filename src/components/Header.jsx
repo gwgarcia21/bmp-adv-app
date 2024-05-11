@@ -10,8 +10,13 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <Logo/>
+                <div className="section-title">
+                  <h2>Advocacia especializada em Direito de Família</h2>
+                </div>
+                <div className="about-text">
+                  <p>Prezamos pela praticidade e eficiência, por isso o nosso atendimento é personalizado e 100% digital, 
+              com linguagem acessível, para que o cliente entenda quais são os seus direitos e qual é a melhor solução 
+              para o seu caso.</p>
                 </div>
                 <a
                   href="https://api.whatsapp.com/send?phone=554288447379&text=Ol%C3%A1.%20Vim%20pelo%20site%20da%20dra.%20Bruna%20M.%20Palma%20e%20gostaria%20de%20marcar%20uma%20consulta."
