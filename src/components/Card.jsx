@@ -18,20 +18,20 @@ const Card = ({ title, content, Icon }) => {
         flex: '0 0 35%', // Isso faz com que a primeira linha ocupe exatamente 35% do espaço
         marginBottom: '20px' 
       }}>
-        {Icon && <div style={{ marginBottom: '10px' }}><Icon style={{ fontSize: '50px' }} /></div>}
+        {Icon && <div style={{ marginBottom: '10px', color: 'var(--cor-destaque)' }}><Icon style={{ fontSize: '50px' }} /></div>}
         <div style={{ 
           display: 'flex', 
           alignItems: 'center', // Isso centraliza o título verticalmente
           justifyContent: 'center' // Isso centraliza o título horizontalmente
         }}>
-          <h3>{title}</h3>
+          <h3 style={{ textShadow: '1px 2px 2px var(--cor-primaria)' }}>{title}</h3>
         </div>
       </div>
       <div style={{ 
         flex: '1' // Isso faz com que a segunda linha ocupe o restante do espaço
       }}>
         {content.map((item, index) => (
-          <div key={index} style={{ marginBottom: '10px' }}>{item}</div>
+          <div key={index} style={{ marginBottom: '10px', color: 'var(--cor-destaque)', textShadow: '1px 2px 2px var(--cor-primaria)' }}>{item}</div>
         ))}
         
         {/* <ul style={{ paddingLeft: '20px', listStyleType: 'disc' }}>
@@ -48,7 +48,7 @@ const Card = ({ title, content, Icon }) => {
         }}>
           <a href="https://api.whatsapp.com/send?phone=554288447379&text=Ol%C3%A1.%20Vim%20pelo%20site%20da%20dra.%20Bruna%20M.%20Palma%20e%20gostaria%20de%20marcar%20uma%20consulta." 
             target="_blank" rel="noreferrer" style={{color: '#fff', textUnderlineOffset: '5px'}}>
-            <p style={{ letterSpacing:'1px', fontSize:'15px', alignItems: 'center', color: '#fff' }}>
+            <p style={{ letterSpacing:'1px', fontSize:'15px', alignItems: 'center', color: '#fff', textShadow: '1px 2px 2px var(--cor-primaria)' }}>
               <FiExternalLink style={{ verticalAlign: 'middle', marginRight: '7px'}}/>
               {"Saiba mais"}
             </p>
