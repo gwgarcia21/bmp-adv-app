@@ -12,24 +12,17 @@ export const Presentation = (props) => {
             </div>
           <div className="col-xs-12 col-md-6">
             <div className="presentation-text">
-              <h2>Está passando por um divórcio?</h2>
-              <h3>Podemos te ajudar!</h3>
+              <h2>Está passando por um divórcio?
+                <h3>Podemos te ajudar!</h3>
+              </h2>
               <p>
-                Sabemos que o processo de divórcio pode ser uma jornada emocionalmente desafiadora. 
-                É por isso que estamos aqui para oferecer suporte, orientação e soluções jurídicas 
-                eficazes para ajudá-lo(a) a atravessar esse momento com dignidade e resolução.
+                Sabemos que o processo de divórcio pode ser uma jornada emocionalmente desafiadora.
               </p>
               <p>
                 Com uma abordagem centrada no cliente, nossa equipe de advogados especializados em 
                 direito de família está comprometida em entender suas necessidades únicas e fornece 
                 uma representação legal de alta qualidade, desde a mediação até a resolução de litígios, 
                 sempre com o objetivo de alcançar o melhor resultado para você e sua família.
-              </p>
-              <p>
-                Nossa experiência e conhecimento nos permitem oferecer uma visão clara do processo legal, 
-                garantindo que você se sinta capacitado(a) e informado(a) a cada passo do caminho. Nosso 
-                foco é sempre encontrar soluções amigáveis e justas, promovendo a resolução rápida e 
-                eficiente de disputas familiares.
               </p>
               <p>
                 Não deixe que as preocupações legais impeçam você de começar um novo capítulo em sua vida. 

@@ -344,7 +344,9 @@ header .intro-text {
 }
 #presentation h3 {
   font-size: 22px;
-  margin: 0 0 20px;
+  margin: 10px 0 0 0;
+  text-transform:initial;
+  color: var(--cor-terciaria);
 }
 #presentation h2 {
   position: relative;
@@ -375,8 +377,8 @@ header .intro-text {
   padding-right: 8px;
 }
 #presentation img {
-  width: 520px;
-  margin-top: 10px;
+  width: 100%;
+  margin-top: 10%;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
