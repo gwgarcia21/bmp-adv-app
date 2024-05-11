@@ -575,3 +575,15 @@ header .intro-text {
     margin: 50px 0;
   }
 }
+
+@media (min-width: 992px) {
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: fit-content;
+  }
+}
