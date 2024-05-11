@@ -5,6 +5,8 @@ import { BsWhatsapp } from "react-icons/bs";
 import { FaHandHoldingUsd } from "react-icons/fa";
 import { MdFamilyRestroom } from "react-icons/md";
 import { MdOutlineWork } from "react-icons/md";
+import { FaHandshake } from "react-icons/fa";
+import { GiLinkedRings } from "react-icons/gi";
 
 const contentCivelConsumidor = [
   'Indenizações por danos morais e materiais',
@@ -40,25 +42,41 @@ const contentTrabalhista = [
   'Verbas atrasadas'
 ];
 
+const contentGuardaCompartilhada = [
+  "Garanta o melhor para seus filhos. Especializados em ações de guarda compartilhada ou unilateral, oferecemos soluções personalizadas para proteger o bem-estar e o futuro das crianças."
+];
+
+const contentDivorcio = [
+  "Encare o futuro com clareza. Lidamos com divórcios e dissoluções de união estável com compaixão e eficiência. Resolvemos questões legais para que você possa seguir em frente com tranquilidade e certeza."
+];
+
+const contentInventario = [
+  "Resolva questões patrimoniais com facilidade. Especializados em inventário e partilha de bens extrajudicial e judicial, oferecemos orientação personalizada para garantir uma divisão justa e eficiente dos ativos familiares."
+];
+
+const contentPosMorte = [
+  "Honre o legado do seu ente querido. Especializados no reconhecimento de união estável pós-morte, estamos aqui para fornecer assistência compassiva e jurídica durante esse momento delicado, garantindo que os seus direitos enquanto esposo(a) sejam respeitados e protegidos."
+];
+
 export const Services = (props) => {
   return (
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Áreas de Atuação</h2>
+          <h2>Como podemos te ajudar?</h2>
         </div>
         <div className="row">
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
+            gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
             gridTemplateRows: 'auto auto', 
             gap: '20px', 
             padding: '0px' 
           }}>
-            <Card Icon={FaUser} title="CÍVEL e CONSUMIDOR" content={contentCivelConsumidor}/>
-            <Card Icon={FaHandHoldingUsd} title="PREVIDENCIÁRIO" content={contentPrevidenciario}/>
-            <Card Icon={MdFamilyRestroom} title="FAMÍLIA e SUCESSÕES" content={contentFamilia}/>
-            <Card Icon={MdOutlineWork} title="TRABALHISTA" content={contentTrabalhista}/>
+            <Card Icon={MdFamilyRestroom} title="Ações de guarda compartilhada ou unilateral" content={contentGuardaCompartilhada}/>
+            <Card Icon={FaHandshake} title="Divórcio e dissolução de união estável" content={contentDivorcio}/>
+            <Card Icon={FaHandHoldingUsd} title="Inventário e partilha de bens extrajudicial e judicial" content={contentInventario}/>
+            <Card Icon={GiLinkedRings} title="Reconhecimento de união estável pós-morte" content={contentPosMorte}/>
           </div>
         </div>
       </div>

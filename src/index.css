@@ -382,6 +382,8 @@ header .intro-text {
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  border-bottom-right-radius: 10cap;
+  border-top-left-radius: 5cap;
 }
 #presentation p {
   line-height: 24px;
@@ -434,6 +436,9 @@ header .intro-text {
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  border-bottom-right-radius: 10cap;
+  border-top-left-radius: 5cap;
+  margin-top: 10%;
 }
 #about p {
   line-height: 24px;
