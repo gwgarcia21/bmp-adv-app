@@ -1,5 +1,5 @@
 import React from "react";
-import presentationImage from '../img/bruna_livro.jpg';
+import presentationImage from '../img/divorcio1.jpg';
 
 export const Presentation = (props) => {
   return (
