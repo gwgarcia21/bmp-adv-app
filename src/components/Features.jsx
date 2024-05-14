@@ -9,7 +9,7 @@ export const Features = (props) => {
     <div id="features" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>COMO FUNCIONA NOSSO ATENDIMENTO?</h2>
+          <h2>Como funciona o atendimento?</h2>
         </div>
         <div className="col-xs-12 col-md-12" style={{ marginBottom: '40px' }}>
           <div className="about-text">

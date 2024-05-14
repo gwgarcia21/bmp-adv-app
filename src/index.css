@@ -97,6 +97,13 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+.learn-more-text {
+  letter-spacing: 1px;
+  font-size: 15px;
+  align-items: center;
+  color: #fff;
+  text-shadow: '1px 2px 2px var(--cor-primaria)';
+}
 /* Navigation */
 #menu {
   padding: 15px;
@@ -396,6 +403,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  background-color: white;
   padding: 100px 0;
 }
 #about h3 {
@@ -580,6 +588,16 @@ header .intro-text {
   font-size: 15px;
   font-weight: 600;
   color: #666;
+}
+/* Faq Section */
+#faq {
+  background: #f6f6f6;
+  padding: 25px 0 25px 0;
+}
+
+#faq .learn-more-text {
+  /*style={{ letterSpacing:'1px', fontSize:'15px', alignItems: 'center', color: '#fff', textShadow: '1px 2px 2px var(--cor-primaria)' }}*/
+  color:#042e1a;
 }
 /* Contact Section */
 #contact {

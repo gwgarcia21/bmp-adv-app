@@ -53,7 +53,7 @@ const Card = ({ title, content, Icon }) => {
               {"Saiba mais"}
             </p>
           </a>
-        </div>
+      </div>
     </div>
     
   );

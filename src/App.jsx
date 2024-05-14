@@ -12,6 +12,7 @@ import { Gallery } from "./components/Gallery";
 import { Testimonials } from "./components/Testimonials";
 import { Contact } from "./components/Contact";
 import { Disclaimer } from './components/Disclaimer';
+import { Faq } from "./components/Faq";
 import JsonData from "./data/data.json";
 //import SmoothScroll from "smooth-scroll";
 
@@ -29,6 +30,7 @@ function App() {
       <Services data={landingPageData.Services} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
+      <Faq data={landingPageData.Faq} />
       <Contact data={landingPageData.Contact} />
       <Disclaimer data={landingPageData.Disclaimer} />
     </div>
