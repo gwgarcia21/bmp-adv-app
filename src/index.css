@@ -125,9 +125,9 @@ hr {
   font-family: "Lato", sans-serif;
   /*text-transform: uppercase;*/
   color: #555;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.1cap;
+  letter-spacing: 0.05cap;
   padding: 8px 2px;
   border-radius: 0;
   margin: 16px 20px 0;
@@ -595,7 +595,7 @@ header .intro-text {
 /* Faq Section */
 #faq {
   background: #f6f6f6;
-  padding: 25px 0 25px 0;
+  padding: 50px 0 25px 0;
 }
 
 #faq .learn-more-text {
