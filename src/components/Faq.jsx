@@ -1,5 +1,6 @@
 import React from "react";
 import QuestionBox from "../components/QuestionBox";
+import ContactBox from "../components/ContactBox";
 import { FaUser } from 'react-icons/fa';
 import { BsWhatsapp } from "react-icons/bs";
 import aboutImage from '../img/about.jpg';
@@ -28,26 +29,8 @@ export const Faq = (props) => {
               <QuestionBox title="3. Quais são os critérios considerados para determinar a guarda dos filhos?" content="Ao decidir sobre a guarda dos filhos, o juiz considera o melhor interesse da criança, levando em conta fatores como o vínculo afetivo com cada genitor, a disponibilidade para cuidar da criança, o ambiente familiar e a estabilidade emocional dos pais."/>      
               <QuestionBox title="4. Quais são as opções para divisão de uma empresa durante o divórcio?" content="As opções incluem venda da empresa e divisão dos lucros entre os cônjuges, manutenção de um dos cônjuges como sócio enquanto o outro recebe uma compensação financeira ou a divisão das ações da empresa entre os cônjuges, mantendo ambos como sócios."/>
               <QuestionBox title="5. Como é tratado o imóvel financiado durante o divórcio?" content="Depende do regime de bens escolhidos. O imóvel financiado pode ser considerado um bem comum a ser dividido entre os cônjuges durante o divórcio, mesmo que apenas um dos cônjuges esteja registrado como proprietário. A divisão pode ocorrer através da venda do imóvel com divisão dos lucros, compra da parte do outro cônjuge ou acordo de quem fica com o imóvel assumindo o financiamento."/>
+              <ContactBox/>
             </div>
-            <a
-              href="https://api.whatsapp.com/send?phone=554288447379&text=Ol%C3%A1.%20Vim%20pelo%20site%20da%20dra.%20Bruna%20M.%20Palma%20e%20gostaria%20de%20marcar%20uma%20consulta."
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-custom btn-lg page-scroll"
-              style={{
-                display: 'inline-block',
-                maxWidth: '80%',
-                whiteSpace: 'wrapped',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                textAlign: 'center',
-              }}
-            >
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <BsWhatsapp/>
-                <span style={{ marginLeft: '10px', whiteSpace: 'normal' }} >Fale conosco via WhatsApp</span>
-              </div>
-            </a>{" "}
           </div>
         </div>
       </div>
