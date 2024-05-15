@@ -404,7 +404,7 @@ header .intro-text {
 /* About Section */
 #about {
   background-color: white;
-  padding: 100px 0;
+  padding: 40px 0;
 }
 #about h3 {
   font-size: 22px;
@@ -459,7 +459,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 50px 0 50px 0;
+  padding: 40px 0 100px 0;
   background: linear-gradient(to right, var(--cor-primaria) 0%, var(--cor-terciaria) 100%);
   color: #fff;
 }
@@ -499,6 +499,9 @@ header .intro-text {
 }
 #services .service-desc {
   margin-bottom: 40px;
+}
+#services .section-title {
+  margin-bottom: 30px;
 }
 /* Portfolio Section */
 #portfolio {
@@ -602,6 +605,10 @@ header .intro-text {
 #faq .learn-more-link {
   color:#333;
   text-underline-offset: 5px;
+}
+
+#faq .section-title {
+  margin-bottom: 0px;
 }
 /* Card Section */
 #card {
