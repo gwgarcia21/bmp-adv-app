@@ -1,9 +1,10 @@
 import React from 'react';
+import LearnMore from "../components/LearnMore";
 import { FiExternalLink } from "react-icons/fi";
 
 const Card = ({ title, content, Icon }) => {
   return (
-    <div style={{ 
+    <div id="card" style={{ 
       display: 'flex', 
       flexDirection: 'column', 
       border: '1px solid #ccc', 
@@ -46,13 +47,7 @@ const Card = ({ title, content, Icon }) => {
           alignItems: 'right',
           justifyContent: 'right',
         }}>
-          <a href="https://api.whatsapp.com/send?phone=554288447379&text=Ol%C3%A1.%20Vim%20pelo%20site%20da%20dra.%20Bruna%20M.%20Palma%20e%20gostaria%20de%20marcar%20uma%20consulta." 
-            target="_blank" rel="noreferrer" style={{color: '#fff', textUnderlineOffset: '5px'}}>
-            <p style={{ letterSpacing:'1px', fontSize:'15px', alignItems: 'center', color: '#fff', textShadow: '1px 2px 2px var(--cor-primaria)' }}>
-              <FiExternalLink style={{ verticalAlign: 'middle', marginRight: '7px'}}/>
-              {"Saiba mais"}
-            </p>
-          </a>
+          <LearnMore/>
       </div>
     </div>
     

@@ -596,8 +596,27 @@ header .intro-text {
 }
 
 #faq .learn-more-text {
-  /*style={{ letterSpacing:'1px', fontSize:'15px', alignItems: 'center', color: '#fff', textShadow: '1px 2px 2px var(--cor-primaria)' }}*/
-  color:#042e1a;
+  color:#333;
+}
+
+#faq .learn-more-link {
+  color:#333;
+  text-underline-offset: 5px;
+}
+/* Card Section */
+#card {
+  background: #f6f6f6;
+  padding: 25px 0 25px 0;
+}
+
+#card .learn-more-text {
+  color:#fff;
+  text-shadow: 1px 2px 2px var(--cor-primaria)
+}
+
+#card .learn-more-link {
+  color:#fff;
+  text-underline-offset: 5px;
 }
 /* Contact Section */
 #contact {
