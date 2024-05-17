@@ -68,10 +68,10 @@ export const Services = (props) => {
         <div className="row">
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
             gridTemplateRows: 'auto auto', 
             gap: '20px', 
-            padding: '0px' 
+            padding: '20px' 
           }}>
             <Card Icon={MdFamilyRestroom} title="Ações de guarda compartilhada ou unilateral" content={contentGuardaCompartilhada}/>
             <Card Icon={FaHandshake} title="Divórcio e dissolução de união estável" content={contentDivorcio}/>
