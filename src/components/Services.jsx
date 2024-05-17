@@ -68,8 +68,8 @@ export const Services = (props) => {
         <div className="row">
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
-            gridTemplateRows: 'auto auto', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
+            gridTemplateRows: 'auto auto',
             gap: '20px', 
             padding: '20px' 
           }}>
