@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/bmp-adv-app/static/css/main.90c176c3.css",
-    "main.js": "/bmp-adv-app/static/js/main.b8029bd8.js",
-    "static/js/453.59776987.chunk.js": "/bmp-adv-app/static/js/453.59776987.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
-    "static/media/bruna_livro.jpg": "/bmp-adv-app/static/media/bruna_livro.bf9a2bcf7820e0cda578.jpg",
-    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
-    "static/media/glyphicons-halflings-regular.svg": "/bmp-adv-app/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
-    "static/media/fontawesome-webfont.woff?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
-    "static/media/fontawesome-webfont.eot": "/bmp-adv-app/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
-    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
-    "static/media/glyphicons-halflings-regular.ttf": "/bmp-adv-app/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
-    "static/media/about.jpg": "/bmp-adv-app/static/media/about.15fd68ace69404e63abb.jpg",
-    "static/media/glyphicons-halflings-regular.woff": "/bmp-adv-app/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
-    "static/media/glyphicons-halflings-regular.eot": "/bmp-adv-app/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
-    "static/media/glyphicons-halflings-regular.woff2": "/bmp-adv-app/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
-    "index.html": "/bmp-adv-app/index.html",
-    "main.90c176c3.css.map": "/bmp-adv-app/static/css/main.90c176c3.css.map",
-    "main.b8029bd8.js.map": "/bmp-adv-app/static/js/main.b8029bd8.js.map",
-    "453.59776987.chunk.js.map": "/bmp-adv-app/static/js/453.59776987.chunk.js.map"
+    "main.css": "/static/css/main.960e3b4d.css",
+    "main.js": "/static/js/main.53756798.js",
+    "static/js/453.59776987.chunk.js": "/static/js/453.59776987.chunk.js",
+    "static/media/divorcio1.jpg": "/static/media/divorcio1.f056795741c92b19860a.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.3.0": "/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
+    "static/media/bruna_livro.jpg": "/static/media/bruna_livro.bf9a2bcf7820e0cda578.jpg",
+    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
+    "static/media/glyphicons-halflings-regular.svg": "/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/fontawesome-webfont.woff?v=4.3.0": "/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
+    "static/media/glyphicons-halflings-regular.ttf": "/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/about.jpg": "/static/media/about.15fd68ace69404e63abb.jpg",
+    "static/media/glyphicons-halflings-regular.woff": "/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "index.html": "/index.html",
+    "main.960e3b4d.css.map": "/static/css/main.960e3b4d.css.map",
+    "main.53756798.js.map": "/static/js/main.53756798.js.map",
+    "453.59776987.chunk.js.map": "/static/js/453.59776987.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c176c3.css",
-    "static/js/main.b8029bd8.js"
+    "static/css/main.960e3b4d.css",
+    "static/js/main.53756798.js"
   ]
 }
