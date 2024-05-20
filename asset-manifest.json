@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bmp-adv-app/static/css/main.3a9bfc7f.css",
+    "main.css": "/bmp-adv-app/static/css/main.391e8498.css",
     "main.js": "/bmp-adv-app/static/js/main.fc7dff16.js",
     "static/js/453.59776987.chunk.js": "/bmp-adv-app/static/js/453.59776987.chunk.js",
     "static/media/divorcio1.jpg": "/bmp-adv-app/static/media/divorcio1.f056795741c92b19860a.jpg",
@@ -17,12 +17,12 @@
     "static/media/glyphicons-halflings-regular.eot": "/bmp-adv-app/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
     "static/media/glyphicons-halflings-regular.woff2": "/bmp-adv-app/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/bmp-adv-app/index.html",
-    "main.3a9bfc7f.css.map": "/bmp-adv-app/static/css/main.3a9bfc7f.css.map",
+    "main.391e8498.css.map": "/bmp-adv-app/static/css/main.391e8498.css.map",
     "main.fc7dff16.js.map": "/bmp-adv-app/static/js/main.fc7dff16.js.map",
     "453.59776987.chunk.js.map": "/bmp-adv-app/static/js/453.59776987.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a9bfc7f.css",
+    "static/css/main.391e8498.css",
     "static/js/main.fc7dff16.js"
   ]
 }
