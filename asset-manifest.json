@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bmp-adv-app/static/css/main.3a9bfc7f.css",
-    "main.js": "/bmp-adv-app/static/js/main.d17216c7.js",
+    "main.js": "/bmp-adv-app/static/js/main.fc7dff16.js",
     "static/js/453.59776987.chunk.js": "/bmp-adv-app/static/js/453.59776987.chunk.js",
     "static/media/divorcio1.jpg": "/bmp-adv-app/static/media/divorcio1.f056795741c92b19860a.jpg",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
@@ -18,11 +18,11 @@
     "static/media/glyphicons-halflings-regular.woff2": "/bmp-adv-app/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/bmp-adv-app/index.html",
     "main.3a9bfc7f.css.map": "/bmp-adv-app/static/css/main.3a9bfc7f.css.map",
-    "main.d17216c7.js.map": "/bmp-adv-app/static/js/main.d17216c7.js.map",
+    "main.fc7dff16.js.map": "/bmp-adv-app/static/js/main.fc7dff16.js.map",
     "453.59776987.chunk.js.map": "/bmp-adv-app/static/js/453.59776987.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a9bfc7f.css",
-    "static/js/main.d17216c7.js"
+    "static/js/main.fc7dff16.js"
   ]
 }
