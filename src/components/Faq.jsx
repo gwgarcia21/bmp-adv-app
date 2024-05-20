@@ -20,6 +20,7 @@ export const Faq = (props) => {
             <div style={{ 
               display: 'grid', 
               gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', // Isso permite que os cards quebrem a linha quando o espaço acabar
+              //gridTemplateColumns: 'auto auto',
               gridTemplateRows: 'auto auto', 
               gap: '20px', 
               padding: '0px' 
