@@ -1,6 +1,7 @@
 {
   "name": "bmp-adv-app",
   "version": "0.1.0",
+  "homepage": "https://gwgarcia21.github.io/bmp-adv-app",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",

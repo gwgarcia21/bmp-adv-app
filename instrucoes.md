@@ -9,3 +9,4 @@
 ## publicar (NOVO)
 # npm run build
 # firebase deploy
+# (obs.: comentar linha do homepage no package.json para fazer deploy no firebase)
