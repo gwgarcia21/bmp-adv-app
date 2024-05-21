@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/bmp-adv-app/static/css/main.583214ce.css",
-    "main.js": "/bmp-adv-app/static/js/main.fc7dff16.js",
+    "main.css": "/bmp-adv-app/static/css/main.c20f9011.css",
+    "main.js": "/bmp-adv-app/static/js/main.f772b56d.js",
     "static/js/453.59776987.chunk.js": "/bmp-adv-app/static/js/453.59776987.chunk.js",
-    "static/media/divorcio1.jpg": "/bmp-adv-app/static/media/divorcio1.f056795741c92b19860a.jpg",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
+    "static/media/divorcio3.jpg": "/bmp-adv-app/static/media/divorcio3.ca874947e10a2407bf73.jpg",
     "static/media/bruna_livro.jpg": "/bmp-adv-app/static/media/bruna_livro.bf9a2bcf7820e0cda578.jpg",
     "static/media/fontawesome-webfont.ttf?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
     "static/media/glyphicons-halflings-regular.svg": "/bmp-adv-app/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/divorcio2.jpg": "/bmp-adv-app/static/media/divorcio2.5d07ab1e1365b5e46d0b.jpg",
     "static/media/fontawesome-webfont.woff?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
     "static/media/fontawesome-webfont.eot": "/bmp-adv-app/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
     "static/media/fontawesome-webfont.woff2?v=4.3.0": "/bmp-adv-app/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
@@ -17,12 +18,12 @@
     "static/media/glyphicons-halflings-regular.eot": "/bmp-adv-app/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
     "static/media/glyphicons-halflings-regular.woff2": "/bmp-adv-app/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/bmp-adv-app/index.html",
-    "main.583214ce.css.map": "/bmp-adv-app/static/css/main.583214ce.css.map",
-    "main.fc7dff16.js.map": "/bmp-adv-app/static/js/main.fc7dff16.js.map",
+    "main.c20f9011.css.map": "/bmp-adv-app/static/css/main.c20f9011.css.map",
+    "main.f772b56d.js.map": "/bmp-adv-app/static/js/main.f772b56d.js.map",
     "453.59776987.chunk.js.map": "/bmp-adv-app/static/js/453.59776987.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.583214ce.css",
-    "static/js/main.fc7dff16.js"
+    "static/css/main.c20f9011.css",
+    "static/js/main.f772b56d.js"
   ]
 }
