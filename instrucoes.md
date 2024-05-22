@@ -9,4 +9,5 @@
 ## publicar (NOVO)
 # npm run build
 # firebase deploy
-# (obs.: comentar linha do homepage no package.json para fazer deploy no firebase)
+# (obs.: remover linha do homepage no package.json para fazer deploy no firebase:
+# "homepage": "https://gwgarcia21.github.io/bmp-adv-app",)
